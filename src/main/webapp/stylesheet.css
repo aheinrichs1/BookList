@@ -1,0 +1,12 @@
+body {
+	background-color:pink;
+}
+
+table, th, td, tr {
+	 border: 1px solid black;
+	 border-collapse: collapse;
+}
+
+h1 {
+	text-align: center;
+}
