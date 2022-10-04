@@ -31,12 +31,15 @@
 <input type = "submit" value = "Edit Book" name="doThisToItem">
 <input type = "submit" value = "Delete Book" name="doThisToItem">
 <br/>
-<h3>All 3 fields must have values in them to add a new book.</h3>
+<h4>Add a book:</h4>
 Title: <input type = "text" name = "title">
 Author: <input type = "text" name = "author">
 Category: <input type = "text" name = "category">
 <input type = "submit" value = "Add Book" name="doThisToItem">
-<br />
+<h5>All 3 fields must have values in them to add a new book.</h5>
 </form>
+<br />
+<a href = "viewAllListsServlet">View all book lists</a><br />
+<a href = "addItemsForListServlet">Create a new list</a>
 </body>
 </html>
